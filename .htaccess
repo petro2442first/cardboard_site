@@ -1,0 +1,6 @@
+php_value date.timezone 'Europe/Kiev'
+RewriteEngine on
+RewriteRule ^$ public/ [L]
+RewriteRule ((?s).*) public/$1 [L]
+RewriteCond %{SERVER_PORT} 443
+# RewriteRule ^(.*)$ https://tossa-group.com/$1 [R,L]

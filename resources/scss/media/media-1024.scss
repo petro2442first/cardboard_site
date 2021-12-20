@@ -1,0 +1,21 @@
+@media screen and (min-width: 1024px) {
+  .header {
+    &__container {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    .socials {
+      width: 50%;
+    }
+    .logo {
+      width: 50%;
+    }
+    .video {
+      width: 50%;
+      order: 3;
+      height: 100%;
+      video {
+      } 
+    }
+  }
+} 

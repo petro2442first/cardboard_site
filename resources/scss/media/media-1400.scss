@@ -1,0 +1,30 @@
+@media screen and (max-width: 1440px) {
+  .nav-menu {
+    .nav-list {
+      .menu-item {
+        .nav-link {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .socials {
+    &__item {
+      width: 50px;
+    }
+  }
+  %catalog-btn {
+    font-size: 16px;
+  }
+  .catalog {
+    &__container {
+      
+      grid-template-columns: repeat(3, 1fr);
+      .catalog-item {
+        &__title {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

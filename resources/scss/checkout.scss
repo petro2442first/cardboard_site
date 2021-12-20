@@ -1,0 +1,298 @@
+ .checkout {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: 0.3s;
+    &--visible {
+      opacity: 1;
+      visibility: visible;
+    }
+    &--checkout {
+      transform: translateX(0);
+    }
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: rgba(#333, .45);
+    }
+    
+
+    &__container {
+      position: relative;
+      width: 100%;
+      max-width: 1190px;
+      height: 100%;
+      border-radius: 25px;
+      padding: 25px;
+      padding-top: 50px;
+      background: #fff;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__close-btn {
+      position: absolute;
+      top: 25px;right: 25px;
+      cursor: pointer;
+      svg {
+        font-size: 25px;
+      }
+    }
+    &__title {
+      position: absolute;
+      top: 25px;left: 25px;
+      font-size: 24px;
+      font-weight: 700;
+      height: 25px;
+    }
+    &__form {
+      width: 100%;
+      max-width: 768px;
+      background: transparent;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 40px;
+      padding-bottom: 100px;  
+    }
+    &__input {
+        position: relative;
+        width: 100%;
+        margin-bottom: 15px;
+        background: transparent;
+        & + div {
+          margin-top: 40px;
+        }
+        label {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 15px;
+          color: #444;
+          z-index: 0;
+          font-size: 18px;
+          transition: 0.3s;
+          cursor: text;
+          span {
+            color: $red;
+            margin-left: 3px;
+          }
+          &.focus {
+            top: -10px;
+            left: 5px;
+            font-size: 16px;
+          }
+        }
+        input {
+          position: relative;
+          width: 100%;
+          outline: 0;
+          padding: 15px;
+          font-size: 18px;
+          box-shadow: none;
+          border: 0;
+          border-bottom: 2px solid $grey;
+          border-radius: 0;
+          z-index: 2;
+          background: transparent;
+        }
+      }
+      &__select {
+        label {
+          font-size: 20px;
+          padding-bottom: 10px;
+          span {
+            color: $red;
+            margin-left: 3px;
+          }
+        }
+      }
+      &__submit {
+        @extend %btn;
+        background: $grey;
+        color: #fff;
+        border: 0;
+        width: fit-content;
+        align-self: flex-end;
+      }
+      &__response {
+      }
+}
+.custom-select {
+  &-container {
+    position: relative;
+    margin: 20px 0;
+    select {
+      visibility: hidden;
+    }
+    &.is-open {
+      .custom-select-panel {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0px);
+      }
+      .custom-select-opener {
+        background: $grey;
+        color: #fff;
+        &::after {
+          transform: rotate(-90deg);
+          filter: invert(1);
+        }
+      }
+    }
+  }
+  &-opener {
+    position: relative; 
+    font-weight: 500; 
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    background: #eee;
+    border-radius: 10px;
+    padding-right: 32px;
+    &::after {
+      content: '';
+      position: absolute; 
+      top: calc(50% - 6px); 
+      right: 10px;
+      width: 12px;  
+      height: 12px; 
+      background-image: url(../assets/images/btn-slider.svg);
+      background-repeat:  no-repeat;
+      background-size:  contain;
+      background-position:  center center;
+      transform: rotate(90deg);
+      transition: 0.3s;  
+    }
+  }
+  &-panel {
+    position: absolute;
+    top: calc(100% + 5px);
+    max-height: 200px;
+    overflow-y: scroll;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 5px 5px 0px rgba(#333, .45);
+    z-index: 10; 
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    padding: 15px;
+    padding-left: 20px;
+    border-radius: 15px;
+    transition: 0.3s; 
+  }
+  &-option {
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    & + div {
+      margin-top: 5px;
+    }
+    &.is-selected {
+      padding-left: 25px;
+      &::before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: calc(50% - 5px);
+        right: calc(100% + 5px);
+        width: 10px;
+        height: 10px;
+        background-image: url(../assets/images/btn-slider.svg);
+        background-repeat:  no-repeat;
+        background-size:  contain;
+        background-position:  center center;
+        // transform: rotate(90deg);
+      }
+    }
+    &.has-focus {
+      background: $grey;
+      color: #fff;
+    }
+  }
+}
+.checkout-message {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 25px;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  // transform: translateX(100%);
+  transition: 0.3s;
+  &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: rgba(#333, .45);
+    }
+  &--visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  &__container {
+    position: relative;
+    width: 600px;
+    padding: 25px;
+    padding-top: 75px;
+    border-radius: 25px;
+    background: #fff;
+
+  }
+  &__close-btn {
+      position: absolute;
+      top: 25px;right: 25px;
+      cursor: pointer;
+      svg {
+        font-size: 25px;
+      }
+    }
+    &__message {
+      font-weight: 700;
+      font-size: 35px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    &__description {
+      font-weight: 500;
+      font-size: 20px;
+      width: 100%;
+      text-align: center;
+    }
+}

@@ -1,0 +1,186 @@
+
+@import 'normalize.css';
+@import './vars.scss';
+@import './mixins.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+      width: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      width: 5px;
+      background-color: #000;
+      border-radius: 5px;
+    }
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+}
+html {
+  overflow: hidden;
+  // &::before {
+  //   content: '';
+  //   display: block;
+  //   position: fixed;
+  //   top: calc(50% - 25px);
+  //   left: calc(50% - 25px);
+  //   width: 50px;
+  //   height: 50px;
+  //   background-image: url(../assets/images/spinner.png);
+  //   background-position: center center;
+  //   background-repeat: no-repeat;
+  //   background-size: contain;
+  //   animation: rotate 1s linear infinite;
+  //   transition: 0.3em;
+  //   opacity: 1;
+  //   visibility: visible;
+  // }
+  // &.loaded {
+  //   &::before {
+  //     visibility: hidden;
+  //     opacity: 0;
+  //   }
+  // }
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+body {
+    height: var(--app-height);
+    // max-height: var(--app-height);
+    transition: 0.3s;
+    overflow: auto;
+    overflow-x: hidden;
+    background: rgba($color: #ccc, $alpha: .65);
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      width: 5px;
+      background-color: #000;
+      border-radius: 5px;
+    }
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+}
+.wrapper {
+  transition: .3s;
+  opacity: 0;
+  overflow: hidden;
+  box-shadow: 0px 15px 30px -15px rgba(34, 60, 80, 0.2) inset,
+    0px -15px 30px -15px rgba(34, 60, 80, 0.2) inset;
+  &.scale-in {
+    opacity: 1;
+  }
+  &.scale-out {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+video {
+  opacity: 0;
+  transition: 0.3s;
+}
+.fade-in {
+  opacity: 1;
+}
+
+.title {
+  &-s {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  &-m {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 35px;
+  }
+  &-b {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    line-height: 36px;
+    width: 800px;
+    margin-top: 100px;
+    margin-bottom: 35px;
+  }
+}
+.block {
+  padding: 0 15px;
+}
+.next-block-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  svg {
+    font-size: 40px;
+    line-height: 0;
+    animation: bounce infinite alternate .3s;
+    color: #000;
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+%btn {
+  width: 200px;
+  padding: 15px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+  background: $red;
+  border-radius: 10px;
+  border: 2px solid #000;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.25s;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+@import './header.scss';
+@import './about.scss';
+@import './contacts.scss';
+@import './gallery.scss';
+@import './catalog.scss';
+@import './cart.scss';
+
+@import './media/style.scss';

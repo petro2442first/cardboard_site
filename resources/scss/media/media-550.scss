@@ -1,0 +1,41 @@
+@media screen and (min-width: 550px) {
+  .title {
+    &-s {
+      font-size: 22px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+    &-m {
+      font-size: 26px;
+      margin-top: 35px;
+      margin-bottom: 30px;
+    }
+    &-b {
+      font-size: 30px;
+      margin-top: 45px;
+      margin-bottom: 30px;
+    }
+  }
+  .socials {
+    &__item {
+      width: 60px;
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+  .next-block-btn {
+    bottom: 20px;
+    svg {
+      font-size: 40px;
+    }
+  }
+  .about-us {
+    .content {
+      p {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+}

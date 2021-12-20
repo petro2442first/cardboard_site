@@ -1,0 +1,267 @@
+.cart {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    &--visible {
+      opacity: 1;
+      visibility: visible;
+    }
+    &--checkout {
+      transform: translateX(-100%);
+    }
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: rgba(#333, .45);
+    }
+    
+    &__container {
+      position: relative;
+      width: 100%;
+      max-width: 1190px;
+      height: 100%;
+      border-radius: 25px;
+      padding: 25px;
+      padding-top: 50px;
+      background: #fff;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      &::before {
+        content: 'У кошику немає товарів!';
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        font-size: 25px;
+        color: $grey;
+      }
+    }
+    &__close-btn {
+      position: absolute;
+      top: 25px;right: 25px;
+      cursor: pointer;
+      svg {
+        font-size: 25px;
+      }
+    }
+    &__title {
+      position: absolute;
+      top: 25px;left: 25px;
+      font-size: 24px;
+      font-weight: 700;
+      height: 25px;
+    }
+    &__list {
+      position: relative;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      // grid-row-gap: 15px;
+      overflow-y: scroll;
+      margin: 15px 0;
+      &::-webkit-scrollbar {
+      width: 5px;
+      }
+      &::-webkit-scrollbar-thumb {
+        width: 5px;
+        background-color: #000;
+        border-radius: 5px;
+        height: 150px;
+      }
+      &::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      
+      .cart-item {
+        position: relative;
+        display: grid;
+        grid-template-columns: 100px 3fr 150px 2fr 40px;
+        justify-items: center;
+        align-items: center;
+        grid-column-gap: 10px;
+        height: 75px;
+        overflow: hidden;
+        background: #fff;
+        transition: 0.5s;
+        &.removed {
+          height: 0;
+          opacity: 0;
+        }
+        &__number {
+          font-size: 20px;
+          font-weight: 500;
+        }
+        &__title {
+          font-size: 20px;
+          font-weight: 600;
+          justify-self: start;
+        }
+        &__thumb {
+          height: 75px;
+          img {
+            display: block;
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+          }
+        }
+        &__count {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          input {
+            padding: 10px;
+            width: 50px;
+            border: 0;
+            border-bottom: 2px solid #000;
+            font-weight: 500;
+            text-align: center;
+          }
+        }
+        &__count-increase {
+          position: relative;
+          padding: 10px;
+          border: 0;
+          background: transparent;
+          cursor: pointer;
+          &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background: transparent;
+          }
+        }
+        &__count-reduce {
+          position: relative;
+          padding: 10px;
+          border: 0;
+          background: transparent;
+          cursor: pointer;
+          &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background: transparent;
+          }
+        }
+        &__price {
+
+        }
+        &__remove-btn {
+          position: relative;
+          border: 0;
+          background: transparent;
+          cursor: pointer;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: 0.15s;
+          &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background: transparent;
+          }
+          svg {
+            font-size: 20px;
+          }
+          &:hover {
+            filter: invert(10%) sepia(96%) saturate(7480%) hue-rotate(355deg) brightness(114%) contrast(106%);
+          }
+        }
+      }
+    }
+    &__checkout-btn {
+      align-self: flex-end;
+      padding: 25px 50px;
+      font-size: 20px;
+      font-weight: 500;
+      border-radius: 10px;
+      color: #fff;
+      background: $grey;
+      border: 0;
+      cursor: pointer;
+      transition: 0.15s;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  .open-cart-btn {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    background: $grey;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+    border: 0;
+    z-index: 5;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.15s;
+    svg {
+      font-size: 40px;
+      color: #fff;
+    }
+    &::after {
+      content: attr(data-count);
+      display: block;
+      position: absolute;
+      padding: 10px;
+      background: $red;
+      color: #fff;
+      font-size: 14px;
+      line-height: 0.55;
+      left: -5px;
+      top: -5px;
+      border-radius: 1000px;
+      transition: 0.15s;
+    }
+    &.show {
+      opacity: 1;
+      visibility: visible;
+    }
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+@import './checkout.scss';

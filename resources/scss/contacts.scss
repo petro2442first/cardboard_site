@@ -1,0 +1,88 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .logo {
+    margin-top: 25px;
+    width: 200px;
+  }
+  .info {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__item {
+      & + div {
+        margin-top: 10px;
+      }
+      font-size: 20px;
+      font-weight: 500;
+      color: #000;
+      span {
+        color: #000;
+      }
+      a {
+        color: #000;
+      }
+    }
+  }
+  .copyright {
+    padding-top: 15px;
+    font-size: 18px;
+  }
+}
+.contact-form {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 40px;
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    & + & {
+      margin-top: 20px;
+    }
+    label {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 15px;
+      color: #444;
+      z-index: -1;
+      font-size: 18px;
+      transition: 0.3s;
+      span {
+        color: $red;
+      }
+      &.focus {
+        top: -10px;
+        left: 5px;
+        font-size: 16px;
+      }
+    }
+    input {
+      width: 100%;
+      outline: 0;
+      padding: 15px;
+      font-size: 18px;
+      box-shadow: none;
+      border: 0;
+      border-bottom: 2px solid #000;
+      border-radius: 0;
+      z-index: 2;
+      background: transparent;
+    }
+  }
+  &__submit {
+    @extend %btn;
+  }
+  &__response {
+  }
+}

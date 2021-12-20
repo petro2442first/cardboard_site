@@ -1,0 +1,83 @@
+@media screen and (min-width: 768px) {
+  .title {
+    &-s {
+      font-size: 26px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+    &-m {
+      font-size: 30px;
+      margin-top: 40px;
+      margin-bottom: 35px;
+    }
+    &-b {
+      font-size: 34px;
+      margin-top: 50px;
+      margin-bottom: 35px;
+    }
+  }
+  .socials {
+    &__item {
+      span {
+        margin-top: 6px;
+        font-weight: 500;
+      }
+    }
+  }
+  .next-block-btn {
+    bottom: 30px;
+    svg {
+      font-size: 45px;
+    }
+  }
+  .about-us {
+    .content {
+      p {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 500;
+      }
+    }
+  }
+  .contacts {
+    .logo {
+      width: 300px;
+    }
+    .info {
+      &__item {
+        & + div {
+          margin-top: 15px;
+        }
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    .copyright {
+      font-size: 16px;
+    }
+  }
+  .contact-form {
+    &__group {
+      input {
+        font-size: 18px;
+        padding: 15px;
+      }
+      label {
+        font-size: 18px;
+        &.focus {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  %btn {
+    width: 300px;
+    font-size: 20px;
+  }
+  .full-gallery {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    background: #fff;
+  }
+}
