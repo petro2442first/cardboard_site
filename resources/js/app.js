@@ -6,6 +6,7 @@ import '@fortawesome/fontawesome-free/js/fontawesome';
 import 'swiper/css';
 
 import Swiper, { Navigation, Pagination, Manipulation, Autoplay, Thumbs } from 'swiper';
+import InputMask from 'inputmask';
 import './catalog.js';
 
 function menu() {
@@ -184,6 +185,27 @@ function headerMenu() {
     });
   });
 }
+
+function sendContactForm() {
+    const form = document.querySelector('.contact-form') ?? null;
+    if(form === null) return;
+    const phone = document.querySelectorAll('input[type="tel"]');
+    // InputMask({regex: String.raw`^((\+?3)?8)?((0\(\d{2}\)?)|(\(0\d{2}\))|(0\d{2}))\d{7}$`}).mask(phone);
+    InputMask('+380-(99)-999-99-99').mask(phone);
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        const name = form.querySelector('input[name="name"]').value;
+        const email = form.querySelector('input[name="email"]').value;
+        const message = form.querySelector('input[name="message"]').value;
+        const btn = from.querySelector('.contact-form__submit');
+        const responseField = from.querySelector('.contact-form__response');
+        responseField.classList.add('sending');
+        responseField.classList.remove('sending');
+        responseField.classList.add('success');
+        responseField.innerHTML = 'Ваше повідомлення успішно відправлено! Дякую за відгук!';
+    });
+}
+
 document.addEventListener('DOMContentLoaded', e => {
   // menu();
   videos();
@@ -194,6 +216,7 @@ document.addEventListener('DOMContentLoaded', e => {
   initGalleryViewer();
   headerSlider();
   headerMenu();
+  sendContactForm();
 });
 window.addEventListener('load', e => {
   document.querySelector('.wrapper').classList.add('scale-in');

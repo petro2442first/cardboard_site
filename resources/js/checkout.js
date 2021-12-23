@@ -67,6 +67,7 @@ function sendCheckoutInfo() {
       .then(data => console.log(data));
 
 }
+
 function initCheckoutForm() {
 	const checkoutForm = document.querySelector('.checkout__form') ?? null;
 	if(checkoutForm === null) return;

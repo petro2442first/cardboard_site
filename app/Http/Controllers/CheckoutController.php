@@ -3,13 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\Mail\SendCheckout;
+use App\Mail\SendOneClickCheckout;
+use Illuminate\Http\Client\Events\RequestSending;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 class CheckoutController extends Controller
 {
     public function checkout(Request $request) {
-        Mail::to('mrb13022001@gmail.com')->send(new SendCheckout(
+        Mail::to('info@dream-and-build.com')->send(new SendCheckout(
             $request->phone,
             $request->name,
             $request->payment,
@@ -21,4 +23,10 @@ class CheckoutController extends Controller
             $request->email ?? null));
         return 1;
     }
+    public function oneClickCheckout(Request $request) {
+        Mail::to('info@dream-and-build.com')->send(new SendOneClickCheckout([
+            'phone' => $request->phone
+        ]));
+    }
 }
+

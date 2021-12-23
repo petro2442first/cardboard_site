@@ -39,7 +39,7 @@ return [
             'host' =>'smtp.hostinger.com',
             'port' => '465',
             'encryption' => 'ssl',
-            'username' => 'info@tossa-group.com',
+            'username' => 'info@dream-and-build.com',
             'password' => 'Petro244275665',
             'timeout' => null,
             'auth_mode' => null,
@@ -92,7 +92,7 @@ return [
     */
 
     'from' => [
-        'address' => 'info@tossa-group.com',
+        'address' => 'info@dream-and-build.com',
         'name' => 'Мрій та будуй',
     ],
 

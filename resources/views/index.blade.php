@@ -52,7 +52,7 @@
                   </div>
                   <div class="slider__item">
                     <div class="slider__thumb">
-                      <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+                      <img src="{{ asset('assets/images/2/0001.jpg') }}" alt="">
                     </div>
                     <div class="slider__title">
                       Будиночок гнома
@@ -60,7 +60,7 @@
                   </div>
                   <div class="slider__item">
                     <div class="slider__thumb">
-                      <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+                      <img src="{{ asset('assets/images/3/0001.jpg') }}" alt="">
                     </div>
                     <div class="slider__title">
                       Будиночок гнома
@@ -68,8 +68,8 @@
                   </div>
                 </div>
               </div>
-              <div class="slider__next-btn"></div>
-              <div class="slider__prev-btn"></div>
+              <div class="slider__next-btn swiper-next-button"></div>
+              <div class="slider__prev-btn swiper-prev-button"></div>
               <div class="slider__pagination"></div>
             </div>
             <div class="socials">
@@ -131,19 +131,19 @@
             <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
           </div>
           <div class="gallery__item">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+            <img src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
           </div>
           <div class="gallery__item">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+            <img src="{{ asset('assets/images/2/0001.jpg') }}" alt="">
           </div>
           <div class="gallery__item">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+            <img src="{{ asset('assets/images/2/0002.jpg') }}" alt="">
           </div>
           <div class="gallery__item">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+            <img src="{{ asset('assets/images/3/0001.jpg') }}" alt="">
           </div>
           <div class="gallery__item">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+            <img src="{{ asset('assets/images/3/0002.jpg') }}" alt="">
           </div>
         </div>
         <button class="gallery__view-btn">Переглянути повну галерею</button>
@@ -267,7 +267,7 @@
               <img src="{{ asset('assets/images/viber.png') }}" alt="">
               <span>Viber</span>
             </a>
-            <a href="#" class="socials__item">
+            <a href="https://www.youtube.com/channel/UCNPJTaxdidTHxw7KnJKD3xw" target="_blank" class="socials__item">
               <img src="{{ asset('assets/images/youtube.png') }}" alt="">
               <span>Youtube</span>
             </a>
@@ -279,11 +279,11 @@
         <div class="info">
           <div class="info__item">
             <span>E-Mail:</span>
-            <a href="">test@gmail.com</a>
+            <a href="">info@dream-and-build.com</a>
           </div>
           <div class="info__item">
             <span>Телефон:</span>
-            <a href="">+12346564564</a>
+            <a href="">+380679302228</a>
           </div>
           <div class="copyright">
             &copy;Мрій та будуй&trade;. Усі права захищені 2021
@@ -298,104 +298,152 @@
           <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
         </div>
         <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+          <img src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
         </div>
         <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+          <img src="{{ asset('assets/images/1/0003.jpg') }}" alt="">
         </div>
         <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+          <img src="{{ asset('assets/images/1/0004.jpg') }}" alt="">
         </div>
         <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+          <img src="{{ asset('assets/images/1/0005.jpg') }}" alt="">
         </div>
         <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+          <img src="{{ asset('assets/images/1/0006.jpg') }}" alt="">
         </div>
         <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+          <img src="{{ asset('assets/images/1/0007.jpg') }}" alt="">
         </div>
         <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+          <img src="{{ asset('assets/images/1/0008.jpg') }}" alt="">
         </div>
         <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-        </div>
-        <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-        </div>
-        <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-        </div>
-        <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-        </div>
-        <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-        </div>
-        <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-        </div>
-        <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-        </div>
-        <div class="full-gallery__item">
-          <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-        </div>
+            <img src="{{ asset('assets/images/2/0001.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/2/0002.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/2/0003.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/2/0004.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/2/0005.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/2/0006.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/2/0007.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/2/0008.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/3/0001.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/3/0002.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/3/0003.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/3/0004.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/3/0005.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/3/0006.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/3/0007.jpg') }}" alt="">
+          </div>
+          <div class="full-gallery__item">
+            <img src="{{ asset('assets/images/3/0008.jpg') }}" alt="">
+          </div>
       </div>
     </div>
     <div id="gallery-viewer" class="gallery-viewer">
       <div class="viewer-container swiper">
         <div class="overlay"><i class="fas fa-times    "></i></div>
         <div class="swiper-wrapper">
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
-          <div class="viewer-slide swiper-slide">
-            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-          </div>
+            <div class="viewer-slide swiper-slide">
+                <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+              </div>
+              <div class="viewer-slide swiper-slide">
+                <img src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
+              </div>
+              <div class="viewer-slide swiper-slide">
+                <img src="{{ asset('assets/images/1/0003.jpg') }}" alt="">
+              </div>
+              <div class="viewer-slide swiper-slide">
+                <img src="{{ asset('assets/images/1/0004.jpg') }}" alt="">
+              </div>
+              <div class="viewer-slide swiper-slide">
+                <img src="{{ asset('assets/images/1/0005.jpg') }}" alt="">
+              </div>
+              <div class="viewer-slide swiper-slide">
+                <img src="{{ asset('assets/images/1/0006.jpg') }}" alt="">
+              </div>
+              <div class="viewer-slide swiper-slide">
+                <img src="{{ asset('assets/images/1/0007.jpg') }}" alt="">
+              </div>
+              <div class="viewer-slide swiper-slide">
+                <img src="{{ asset('assets/images/1/0008.jpg') }}" alt="">
+              </div>
+              <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/2/0001.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/2/0002.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/2/0003.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/2/0004.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/2/0005.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/2/0006.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/2/0007.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/2/0008.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/3/0001.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/3/0002.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/3/0003.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/3/0004.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/3/0005.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/3/0006.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/3/0007.jpg') }}" alt="">
+                </div>
+                <div class="viewer-slide swiper-slide">
+                  <img src="{{ asset('assets/images/3/0008.jpg') }}" alt="">
+                </div>
         </div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>

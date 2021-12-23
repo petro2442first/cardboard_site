@@ -8,6 +8,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  z-index: 99;
   cursor: pointer;
   transition: 0.3s;
   &:hover {
@@ -46,18 +47,15 @@
 
 .nav-menu {
   width: auto;
-
   .nav-list {
     width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-
     .menu-item {
       & + .menu-item {
         margin-left: 25px;
       }
-
       .nav-link {
         display: flex;
         align-items: center;
@@ -127,7 +125,7 @@
   align-items: center;
   // justify-content: center;
   padding: 35px;
-  overflow: visible;
+  overflow: visible !important;
   &__container {
     // height: 350px;
     display: flex;
@@ -137,6 +135,7 @@
   &__row {
     width: 100%;
     // height: 350px;
+    padding: 0 35px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 50px;
@@ -168,10 +167,10 @@
     padding-top: 15px;
     text-align: center;
   }
-  
+
   &__next-btn {
     @extend %slider-btn;
-    right: -10px;  
+    right: -10px;
   }
 
   &__prev-btn {
