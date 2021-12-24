@@ -148,6 +148,19 @@
         </div>
         <button class="gallery__view-btn">Переглянути повну галерею</button>
       </section>
+      <section class="block videos">
+        <div class="videos__container">
+          <div class="videos__item">
+            <iframe src="https://www.youtube.com/embed/CVI40hBjT0U" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="videos__item">
+            <iframe src="https://www.youtube.com/embed/TZT70z9c6ME" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="videos__item">
+            <iframe src="https://www.youtube.com/embed/aoYrbaxdWAI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
       <section class="block catalog" id="catalog">
         <h2 class="title-m">Наші товари</h2>
         <div class="catalog__container">

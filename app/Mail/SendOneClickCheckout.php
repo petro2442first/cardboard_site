@@ -32,6 +32,9 @@ class SendOneClickCheckout extends Mailable
         return $this
         ->from('info@dream-and-build.com')
         ->subject('Нове замовлення')
-        ->view('view.name');
+        ->view('view.name')
+        ->with([
+            'phone' => $this->phone
+        ]);
     }
 }

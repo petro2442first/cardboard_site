@@ -20,3 +20,6 @@ Route::get('/', function () {
 
 Route::post('/checkout', [CheckoutController::class, 'checkout'])
 ->name('checkout-post');
+
+Route::post('/one-click-checkout', [CheckoutController::class, 'oneClickCheckout'])
+->name('one-click-checkout');
