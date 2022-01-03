@@ -59,7 +59,7 @@ body {
     transition: 0.3s;
     overflow: auto;
     overflow-x: hidden;
-    background: rgba($color: #ccc, $alpha: .65);
+    background: rgba($color: #ccc, $alpha: .45);
     &::-webkit-scrollbar {
       width: 5px;
     }
