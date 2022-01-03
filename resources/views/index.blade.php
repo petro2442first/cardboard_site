@@ -47,7 +47,7 @@
                       <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
                     </div>
                     <div class="slider__title">
-                      Будиночок гнома
+                      Мрія №1
                     </div>
                   </div>
                   <div class="slider__item">
@@ -55,7 +55,7 @@
                       <img src="{{ asset('assets/images/2/0001.jpg') }}" alt="">
                     </div>
                     <div class="slider__title">
-                      Будиночок гнома
+                      Мрія №2
                     </div>
                   </div>
                   <div class="slider__item">
@@ -63,7 +63,7 @@
                       <img src="{{ asset('assets/images/3/0001.jpg') }}" alt="">
                     </div>
                     <div class="slider__title">
-                      Будиночок гнома
+                      Мрія №3
                     </div>
                   </div>
                 </div>
