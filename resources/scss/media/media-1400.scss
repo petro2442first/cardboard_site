@@ -18,7 +18,7 @@
   }
   .catalog {
     &__container {
-      
+
       grid-template-columns: repeat(3, 1fr);
       .catalog-item {
         &__title {
@@ -26,5 +26,19 @@
         }
       }
     }
+  }
+  .about-us {
+      &__row {
+          .content {
+              p {
+                  font-size: 16px;
+                  line-height: 20px;
+              }
+              h3 {
+                  margin-top: 15px;
+                  margin-bottom: 10px;
+              }
+          }
+      }
   }
 }
