@@ -238,66 +238,9 @@
               <button class="catalog-item__one-click-checkout">Замовити в 1 клік</button>
             </div>
           </div>
-          <div class="catalog-item">
-            <a href="#" class="catalog-item__view-btn">
-              <div class="catalog-item__thumb">
-                <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-              </div>
-              <div class="catalog-item__title">
-                Стандартний набір "Мрій та будуй"
-              </div>
-            </a>
-            <div class="catalog-item__price"><span>2000</span> грн</div>
-            <div class="catalog-item__row">
-              <button class="catalog-item__add-to-cart">Додати у кошик</button>
-              <button class="catalog-item__one-click-checkout">Замовити в 1 клік</button>
-            </div>
-          </div>
-          <div class="catalog-item">
-            <a href="#" class="catalog-item__view-btn">
-              <div class="catalog-item__thumb">
-                <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-              </div>
-              <div class="catalog-item__title">
-                Стандартний набір "Мрій та будуй"
-              </div>
-            </a>
-            <div class="catalog-item__price"><span>2000</span> грн</div>
-            <div class="catalog-item__row">
-              <button class="catalog-item__add-to-cart">Додати у кошик</button>
-              <button class="catalog-item__one-click-checkout">Замовити в 1 клік</button>
-            </div>
-          </div>
-          <div class="catalog-item">
-            <a href="#" class="catalog-item__view-btn">
-              <div class="catalog-item__thumb">
-                <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-              </div>
-              <div class="catalog-item__title">
-                Стандартний набір "Мрій та будуй"
-              </div>
-            </a>
-            <div class="catalog-item__price"><span>2000</span> грн</div>
-            <div class="catalog-item__row">
-              <button class="catalog-item__add-to-cart">Додати у кошик</button>
-              <button class="catalog-item__one-click-checkout">Замовити в 1 клік</button>
-            </div>
-          </div>
-          <div class="catalog-item">
-            <a href="#" class="catalog-item__view-btn">
-              <div class="catalog-item__thumb">
-                <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
-              </div>
-              <div class="catalog-item__title">
-                Стандартний набір "Мрій та будуй"
-              </div>
-            </a>
-            <div class="catalog-item__price"><span>2000</span> грн</div>
-            <div class="catalog-item__row">
-              <button class="catalog-item__add-to-cart">Додати у кошик</button>
-              <button class="catalog-item__one-click-checkout">Замовити в 1 клік</button>
-            </div>
-          </div>
+        </div>
+        <div class="coming-soon">
+          В найближчий час наш асортимент поповниться новими товарам. Очікуйте!)
         </div>
       </section>
       <section class="block contacts" id="contact-us">

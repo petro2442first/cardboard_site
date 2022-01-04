@@ -9,7 +9,13 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 40px;
   }
-  
+  .coming-soon {
+      width: 100%;
+      text-align: center;
+      font-weight: 600;
+      color: #333;
+      font-size: 24px;
+  }
 }
 
 %catalog-btn {
@@ -226,7 +232,7 @@
       user-select: none;
     }
   }
-  
+
   .swiper-button-prev,
   .swiper-button-next {
     position: absolute;
@@ -254,7 +260,7 @@
     right: 20px;
     background-image: url(../assets/images/btn-slider.svg);
   }
-  
+
 }
 .thumbs {
     position: relative;
@@ -291,4 +297,3 @@
     }
   }
 
-  
