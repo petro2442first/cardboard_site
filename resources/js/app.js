@@ -4,6 +4,10 @@ import '@fortawesome/fontawesome-free/js/fontawesome';
 ;
 // import 'normalize.css';
 import 'swiper/css';
+import 'video.js';
+
+
+
 
 import Swiper, { Navigation, Pagination, Manipulation, Autoplay, Thumbs } from 'swiper';
 import InputMask from 'inputmask';

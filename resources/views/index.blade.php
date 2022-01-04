@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet">
       <link rel="stylesheet" href="{{ mix('style.css') }}">
+      <link href="https://unpkg.com/@videojs/themes@1/dist/city/index.css" rel="stylesheet">
     </head>
     <body>
       <div class="wrapper">
@@ -154,7 +155,7 @@
       </section>
       <section class="block videos">
         <div class="videos__container">
-          <div class="videos__item">
+          {{-- <div class="videos__item">
             <iframe src="https://www.youtube.com/embed/CVI40hBjT0U" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="videos__item">
@@ -162,6 +163,60 @@
           </div>
           <div class="videos__item">
             <iframe src="https://www.youtube.com/embed/aoYrbaxdWAI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div> --}}
+          <div class="videos__item">
+            <video
+            class="video-js vjs-theme-city"
+            controls
+            preload="auto"
+            poster="{{ asset('assets/images/1/0001.jpg') }}"
+            data-setup="{}"
+            >
+            <source src="{{ asset('assets/videos/1.mp4') }}" type="video/mp4" />
+            <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+            >
+            </p>
+            </video>
+          </div>
+          <div class="videos__item">
+            <video
+            class="video-js vjs-theme-city"
+            controls
+            preload="auto"
+            poster="{{ asset('assets/images/2/0001.jpg') }}"
+            data-setup="{}"
+            >
+            <source src="{{ asset('assets/videos/2.mp4') }}" type="video/mp4" />
+            <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+            >
+            </p>
+            </video>
+          </div>
+          <div class="videos__item">
+            <video
+            class="video-js vjs-theme-city"
+            controls
+            preload="auto"
+            poster="{{ asset('assets/images/3/0001.jpg') }}"
+            data-setup="{}"
+            >
+            <source src="{{ asset('assets/videos/3.mp4') }}" type="video/mp4" />
+            <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+            >
+            </p>
+            </video>
           </div>
         </div>
       </section>

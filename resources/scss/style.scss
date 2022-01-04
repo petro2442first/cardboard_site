@@ -2,7 +2,7 @@
 @import 'normalize.css';
 @import './vars.scss';
 @import './mixins.scss';
-
+@import 'video.js';
 * {
   margin: 0;
   padding: 0;
@@ -184,3 +184,5 @@ video {
 @import './cart.scss';
 
 @import './media/style.scss';
+
+
