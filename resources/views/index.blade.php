@@ -99,11 +99,12 @@
               </div>
             </div> --}}
             <div class="video" id="header-video">
-                {{-- <video
+                <video
                 class="video-js vjs-theme-city"
                 autoplay="true"
                 muted="true"
                 preload="auto"
+                controls
                 poster="{{ asset('assets/images/1/0001.jpg') }}"
                 data-setup="{}"
                 >
@@ -115,8 +116,8 @@
                     >supports HTML5 video</a
                 >
                 </p>
-                </video> --}}
-                <video src="{{ asset('assets/videos/header1.mp4') }}" autoplay muted loop></video>
+                </video>
+                {{-- <video src="{{ asset('assets/videos/header1.mp4') }}" autoplay muted loop></video> --}}
           </div>
           <a href="#about-us" class="next-block-btn"> <i class="fa fa-chevron-down" aria-hidden="true"></i> </a>
         </div>
