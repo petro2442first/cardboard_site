@@ -99,9 +99,23 @@
               </div>
             </div> --}}
             <div class="video" id="header-video">
-            <video  playsinline autoplay muted loop poster="{{ asset('assets/images/3/0002.jpg') }}">
-                <source src="{{ asset('assets/videos/header1.mp4') }}" type="video/mp4">
-            </video>
+                <video
+                class="video-js vjs-theme-city"
+                autoplay
+                muted
+                preload="auto"
+                poster="{{ asset('assets/images/1/0001.jpg') }}"
+                data-setup="{}"
+                >
+                <source src="{{ asset('assets/videos/header1.mp4') }}" type="video/mp4" />
+                <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank"
+                    >supports HTML5 video</a
+                >
+                </p>
+                </video>
           </div>
           <a href="#about-us" class="next-block-btn"> <i class="fa fa-chevron-down" aria-hidden="true"></i> </a>
         </div>
