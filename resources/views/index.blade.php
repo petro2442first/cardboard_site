@@ -40,7 +40,7 @@
                 </ul>
               </nav>
             </div>
-            <div class="slider swiper">
+            {{-- <div class="slider swiper">
               <div class="slider__container swiper-wrapper">
                 <div class="slider__row swiper-slide">
                   <div class="slider__item">
@@ -72,8 +72,8 @@
               <div class="slider__next-btn swiper-next-button"></div>
               <div class="slider__prev-btn swiper-prev-button"></div>
               <div class="slider__pagination"></div>
-            </div>
-            {{-- <div class="socials">
+            </div> --}}
+            <div class="socials">
               <h3 class="title-s">Приєднуйся до нас у соціальних мережах:</h3>
               <div class="socials__container">
                 <a href="#" class="socials__item">
@@ -97,7 +97,7 @@
                   <span>Youtube</span>
                 </a>
               </div>
-            </div> --}}
+            </div>
             <div class="video" id="header-video">
                 {{-- <video
                 class="video-js vjs-theme-city"
