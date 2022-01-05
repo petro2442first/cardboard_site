@@ -73,7 +73,7 @@
               <div class="slider__prev-btn swiper-prev-button"></div>
               <div class="slider__pagination"></div>
             </div>
-            <div class="socials">
+            {{-- <div class="socials">
               <h3 class="title-s">Приєднуйся до нас у соціальних мережах:</h3>
               <div class="socials__container">
                 <a href="#" class="socials__item">
@@ -97,7 +97,7 @@
                   <span>Youtube</span>
                 </a>
               </div>
-            </div>
+            </div> --}}
             <div class="video" id="header-video">
             <video src="{{ asset('assets/videos/header.mp4') }}" playsinline autoplay muted loop></video>
           </div>
