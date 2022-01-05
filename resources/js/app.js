@@ -24,12 +24,14 @@ function menu() {
 }
 
 function videos() {
-  const videos = document.querySelectorAll('video');
-  videos.forEach(video => {
-    video.addEventListener('loadeddata', e => {
-      video.classList.add('fade-in');
-    })
-  });
+//   const videos = document.querySelectorAll('video');
+//   videos.forEach(video => {
+//     video.addEventListener('loadeddata', e => {
+//       video.classList.add('fade-in');
+//     })
+//   });
+const video = document.querySelector('video');
+video.play();
 }
 
 function appHeight() {
@@ -212,7 +214,7 @@ function sendContactForm() {
 
 document.addEventListener('DOMContentLoaded', e => {
   // menu();
-//   videos();
+  videos();
   appHeight();
   nextBlockButton();
   contactForm();
