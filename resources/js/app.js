@@ -212,7 +212,7 @@ function sendContactForm() {
 
 document.addEventListener('DOMContentLoaded', e => {
   // menu();
-  videos();
+//   videos();
   appHeight();
   nextBlockButton();
   contactForm();
