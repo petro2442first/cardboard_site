@@ -103,8 +103,6 @@
                 class="video-js vjs-theme-city"
                 autoplay="true"
                 muted="true"
-                preload="auto"
-                controls
                 poster="{{ asset('assets/images/1/0001.jpg') }}"
                 data-setup="{}"
                 >
