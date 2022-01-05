@@ -76,23 +76,23 @@
             <div class="socials">
               <h3 class="title-s">Приєднуйся до нас у соціальних мережах:</h3>
               <div class="socials__container">
-                <a href="#" class="socials__item">
+                <a href="#" class="socials__item" target="_blank">
                   <img src="{{ asset('assets/images/facebook.png') }}" alt="">
                   <span>Facebook</span>
                 </a>
-                <a href="#" class="socials__item">
+                <a href="#" class="socials__item" target="_blank">
                   <img src="{{ asset('assets/images/instagram.png') }}" alt="">
                   <span>Instagram</span>
                 </a>
-                <a href="#" class="socials__item">
+                <a href="#" class="socials__item" target="_blank">
                   <img src="{{ asset('assets/images/telegram.png') }}" alt="">
                   <span>Telegram</span>
                 </a>
-                <a href="#" class="socials__item">
+                <a href="#" class="socials__item" target="_blank">
                   <img src="{{ asset('assets/images/viber.png') }}" alt="">
                   <span>Viber</span>
                 </a>
-                <a href="#" class="socials__item">
+                <a href="https://www.youtube.com/channel/UCNPJTaxdidTHxw7KnJKD3xw" class="socials__item" target="_blank">
                   <img src="{{ asset('assets/images/youtube.png') }}" alt="">
                   <span>Youtube</span>
                 </a>
