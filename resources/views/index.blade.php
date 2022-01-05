@@ -99,7 +99,9 @@
               </div>
             </div> --}}
             <div class="video" id="header-video">
-            <video src="{{ asset('assets/videos/header.mp4') }}" playsinline autoplay muted loop></video>
+            <video  playsinline autoplay muted loop poster="{{ asset('assets/images/3/0002.jpg') }}">
+                <source src="{{ asset('assets/videos/header.mp4') }}" type="video/mp4">
+            </video>
           </div>
           <a href="#about-us" class="next-block-btn"> <i class="fa fa-chevron-down" aria-hidden="true"></i> </a>
         </div>
