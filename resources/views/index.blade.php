@@ -325,6 +325,22 @@
     <div class="full-gallery">
       <div class="full-gallery__close-btn"> <i class="fas fa-times"></i> </div>
       <div class="full-gallery__container">
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/1.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/2.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/3.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/4.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/5.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/6.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/7.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/8.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/9.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/10.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/11.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/12.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/13.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/14.jpg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/Упаковка№1.jpeg') }}" alt=""></div>
+        <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/Упаковка №2.jpeg') }}" alt=""></div>
         <div class="full-gallery__item">
           <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
         </div>
@@ -349,53 +365,6 @@
         <div class="full-gallery__item">
           <img src="{{ asset('assets/images/1/0008.jpg') }}" alt="">
         </div>
-        <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/2/0001.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/2/0002.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/2/0003.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/2/0004.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/2/0005.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/2/0006.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/2/0007.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/2/0008.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/3/0001.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/3/0002.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/3/0003.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/3/0004.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/3/0005.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/3/0006.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/3/0007.jpg') }}" alt="">
-          </div>
-          <div class="full-gallery__item">
-            <img src="{{ asset('assets/images/3/0008.jpg') }}" alt="">
           </div>
       </div>
     </div>
