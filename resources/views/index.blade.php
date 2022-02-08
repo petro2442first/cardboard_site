@@ -167,7 +167,7 @@
             <img src="{{ asset('assets/images/3/0002.jpg') }}" alt="">
           </div>
         </div>
-        <button class="gallery__view-btn">Переглянути повну галерею</button>
+        <button class="gallery__view-btn"><i class="fas fa-images"></i>Переглянути повну галерею</button>
       </section>
       <section class="block videos">
         <div class="videos__container">
