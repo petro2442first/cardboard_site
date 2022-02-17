@@ -22,7 +22,7 @@
             <div class="header__container">
                 <div class="header__top-panel">
                     <div class="logo">
-                        <img src=" {{ mix('assets/images/logo.svg') }}" alt="">
+                        <img src=" {{ asset('assets/images/logo.svg') }}" alt="">
                     </div>
                     <nav class="nav-menu">
                         <ul class="nav-list">
@@ -82,23 +82,23 @@
         <h3 class="title-s">Приєднуйся до нас у соціальних мережах:</h3>
         <div class="socials__container">
             <a href="#" class="socials__item" target="_blank">
-                <img src="{{ mix('assets/images/facebook.png') }}" alt="">
+                <img src="{{ asset('assets/images/facebook.png') }}" alt="">
                 <span>Facebook</span>
             </a>
             <a href="#" class="socials__item" target="_blank">
-                <img src="{{ mix('assets/images/instagram.png') }}" alt="">
+                <img src="{{ asset('assets/images/instagram.png') }}" alt="">
                 <span>Instagram</span>
             </a>
             <a href="#" class="socials__item" target="_blank">
-                <img src="{{ mix('assets/images/telegram.png') }}" alt="">
+                <img src="{{ asset('assets/images/telegram.png') }}" alt="">
                 <span>Telegram</span>
             </a>
             <a href="#" class="socials__item" target="_blank">
-                <img src="{{ mix('assets/images/viber.png') }}" alt="">
+                <img src="{{ asset('assets/images/viber.png') }}" alt="">
                 <span>Viber</span>
             </a>
             <a href="https://www.youtube.com/channel/UCNPJTaxdidTHxw7KnJKD3xw" class="socials__item" target="_blank">
-                <img src="{{ mix('assets/images/youtube.png') }}" alt="">
+                <img src="{{ asset('assets/images/youtube.png') }}" alt="">
                 <span>Youtube</span>
             </a>
         </div>
@@ -118,7 +118,7 @@
             <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
         </p>
         </video> --}}
-        <video src="{{ mix('assets/videos/header1.mp4') }}" autoplay muted loop></video>
+        <video src="{{ asset('assets/videos/header1.mp4') }}" autoplay muted loop></video>
     </div>
     <a href="#about-us" class="next-block-btn"> <i class="fa fa-chevron-down" aria-hidden="true"></i> </a>
     </div>
@@ -165,7 +165,7 @@
                 {{-- <p>Підписуйтесь на новини - буде багато цікавого та корисного.</p> --}}
             </div>
             <div class="thumb">
-                <img src="{{ mix('assets/images/about.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/about.jpg') }}" alt="">
             </div>
         </div>
     </section>
@@ -173,22 +173,22 @@
         <h2 class="title-m">Варіанти складання з одного комплекту</h2>
         <div class="gallery__container">
             <div class="gallery__item">
-                <img src="{{ mix('assets/images/1/0001.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
             </div>
             <div class="gallery__item">
-                <img src="{{ mix('assets/images/1/0002.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
             </div>
             <div class="gallery__item">
-                <img src="{{ mix('assets/images/2/0001.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/2/0001.jpg') }}" alt="">
             </div>
             <div class="gallery__item">
-                <img src="{{ mix('assets/images/2/0002.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/2/0002.jpg') }}" alt="">
             </div>
             <div class="gallery__item">
-                <img src="{{ mix('assets/images/3/0001.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/3/0001.jpg') }}" alt="">
             </div>
             <div class="gallery__item">
-                <img src="{{ mix('assets/images/3/0002.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/3/0002.jpg') }}" alt="">
             </div>
         </div>
         <button class="gallery__view-btn"><i class="fas fa-images"></i>Переглянути повну галерею</button>
@@ -206,8 +206,8 @@
           </div> --}}
             <div class="videos__item">
                 <video class="video-js vjs-theme-city" controls preload="metadata"
-                    poster="{{ mix('assets/images/1/0001.jpg') }}" data-setup="{}">
-                    <source src="{{ mix('assets/videos/1.mp4') }}" type="video/mp4" />
+                    poster="{{ asset('assets/images/1/0001.jpg') }}" data-setup="{}">
+                    <source src="{{ asset('assets/videos/1.mp4') }}" type="video/mp4" />
                     <p class="vjs-no-js">
                         To view this video please enable JavaScript, and consider upgrading to a
                         web browser that
@@ -217,8 +217,8 @@
             </div>
             <div class="videos__item">
                 <video class="video-js vjs-theme-city" controls preload="auto"
-                    poster="{{ mix('assets/images/2/0001.jpg') }}" data-setup="{}">
-                    <source src="{{ mix('assets/videos/2.mp4') }}" type="video/mp4" />
+                    poster="{{ asset('assets/images/2/0001.jpg') }}" data-setup="{}">
+                    <source src="{{ asset('assets/videos/2.mp4') }}" type="video/mp4" />
                     <p class="vjs-no-js">
                         To view this video please enable JavaScript, and consider upgrading to a
                         web browser that
@@ -228,8 +228,8 @@
             </div>
             <div class="videos__item">
                 <video class="video-js vjs-theme-city" controls preload="auto"
-                    poster="{{ mix('assets/images/3/0001.jpg') }}" data-setup="{}">
-                    <source src="{{ mix('assets/videos/3.mp4') }}" type="video/mp4" />
+                    poster="{{ asset('assets/images/3/0001.jpg') }}" data-setup="{}">
+                    <source src="{{ asset('assets/videos/3.mp4') }}" type="video/mp4" />
                     <p class="vjs-no-js">
                         To view this video please enable JavaScript, and consider upgrading to a
                         web browser that
@@ -245,7 +245,7 @@
             <div class="catalog-item">
                 <a href="#" class="catalog-item__view-btn">
                     <div class="catalog-item__thumb">
-                        <img src="{{ mix('assets/images/1/0001.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
                     </div>
                     <div class="catalog-item__title">
                         Стандартний набір "Мрій та будуй"
@@ -286,30 +286,30 @@
             <h3 class="title-s">Приєднуйся до нас у соціальних мережах:</h3>
             <div class="socials__container">
                 <a href="#" class="socials__item">
-                    <img src="{{ mix('assets/images/facebook.png') }}" alt="">
+                    <img src="{{ asset('assets/images/facebook.png') }}" alt="">
                     <span>Facebook</span>
                 </a>
                 <a href="#" class="socials__item">
-                    <img src="{{ mix('assets/images/instagram.png') }}" alt="">
+                    <img src="{{ asset('assets/images/instagram.png') }}" alt="">
                     <span>Instagram</span>
                 </a>
                 <a href="#" class="socials__item">
-                    <img src="{{ mix('assets/images/telegram.png') }}" alt="">
+                    <img src="{{ asset('assets/images/telegram.png') }}" alt="">
                     <span>Telegram</span>
                 </a>
                 <a href="#" class="socials__item">
-                    <img src="{{ mix('assets/images/viber.png') }}" alt="">
+                    <img src="{{ asset('assets/images/viber.png') }}" alt="">
                     <span>Viber</span>
                 </a>
                 <a href="https://www.youtube.com/channel/UCNPJTaxdidTHxw7KnJKD3xw" target="_blank"
                     class="socials__item">
-                    <img src="{{ mix('assets/images/youtube.png') }}" alt="">
+                    <img src="{{ asset('assets/images/youtube.png') }}" alt="">
                     <span>Youtube</span>
                 </a>
             </div>
         </div>
         <div class="logo">
-            <img src="{{ mix('assets/images/logo.svg') }}" alt="">
+            <img src="{{ asset('assets/images/logo.svg') }}" alt="">
         </div>
         <div class="info">
             <div class="info__item">
@@ -329,45 +329,45 @@
     <div class="full-gallery">
         <div class="full-gallery__close-btn"> <i class="fas fa-times"></i> </div>
         <div class="full-gallery__container">
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/1.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/2.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/3.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/4.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/5.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/6.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/7.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/8.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/9.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/10.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/11.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/12.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/13.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/14.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/Упаковка№1.jpeg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ mix('assets/images/gallery/Упаковка №2.jpeg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/1.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/2.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/3.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/4.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/5.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/6.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/7.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/8.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/9.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/10.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/11.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/12.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/13.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/14.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/Упаковка№1.jpeg') }}" alt=""></div>
+            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/Упаковка №2.jpeg') }}" alt=""></div>
             <div class="full-gallery__item">
-                <img src="{{ mix('assets/images/1/0001.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ mix('assets/images/1/0002.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ mix('assets/images/1/0003.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/1/0003.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ mix('assets/images/1/0004.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/1/0004.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ mix('assets/images/1/0005.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/1/0005.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ mix('assets/images/1/0006.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/1/0006.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ mix('assets/images/1/0007.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/1/0007.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ mix('assets/images/1/0008.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/1/0008.jpg') }}" alt="">
             </div>
         </div>
     </div>
@@ -376,52 +376,52 @@
         <div class="viewer-container swiper">
             <div class="overlay"><i class="fas fa-times    "></i></div>
             <div class="swiper-wrapper">
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/1.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/2.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/3.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/4.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/5.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/6.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/7.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/8.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/9.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/10.jpg') }}" alt="">
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/1.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/2.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/3.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/4.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/5.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/6.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/7.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/8.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/9.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/10.jpg') }}" alt="">
                 </div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/11.jpg') }}" alt="">
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/11.jpg') }}" alt="">
                 </div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/12.jpg') }}" alt="">
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/12.jpg') }}" alt="">
                 </div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/13.jpg') }}" alt="">
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/13.jpg') }}" alt="">
                 </div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/14.jpg') }}" alt="">
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/14.jpg') }}" alt="">
                 </div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/Упаковка№1.jpeg') }}"
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/Упаковка№1.jpeg') }}"
                         alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ mix('assets/images/gallery/Упаковка №2.jpeg') }}"
+                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/Упаковка №2.jpeg') }}"
                         alt=""></div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ mix('assets/images/1/0001.jpg') }}" alt="">
+                    <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ mix('assets/images/1/0002.jpg') }}" alt="">
+                    <img src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ mix('assets/images/1/0003.jpg') }}" alt="">
+                    <img src="{{ asset('assets/images/1/0003.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ mix('assets/images/1/0004.jpg') }}" alt="">
+                    <img src="{{ asset('assets/images/1/0004.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ mix('assets/images/1/0005.jpg') }}" alt="">
+                    <img src="{{ asset('assets/images/1/0005.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ mix('assets/images/1/0006.jpg') }}" alt="">
+                    <img src="{{ asset('assets/images/1/0006.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ mix('assets/images/1/0007.jpg') }}" alt="">
+                    <img src="{{ asset('assets/images/1/0007.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ mix('assets/images/1/0008.jpg') }}" alt="">
+                    <img src="{{ asset('assets/images/1/0008.jpg') }}" alt="">
                 </div>
             </div>
             <div class="swiper-button-prev"></div>
@@ -436,13 +436,13 @@
                 <div class="thumbs-slider">
                     <div class="thumbs-slider__wrapper swiper-wrapper">
                         <div class="thumbs-slider__slide swiper-slide">
-                            <img src="{{ mix('assets/images/1/0001.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
                         </div>
                         <div class="thumbs-slider__slide swiper-slide">
-                            <img src="{{ mix('assets/images/1/0002.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
                         </div>
                         <div class="thumbs-slider__slide swiper-slide">
-                            <img src="{{ mix('assets/images/1/0003.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/1/0003.jpg') }}" alt="">
                         </div>
                     </div>
                     <div class="thumbs-slider__next-btn swiper-button-next"></div>
@@ -451,13 +451,13 @@
                 <div class="thumbs">
                     <div class="thumbs__wrapper swiper-wrapper">
                         <div class="thumbs__slide swiper-slide">
-                            <img src="{{ mix('assets/images/1/0001.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
                         </div>
                         <div class="thumbs__slide swiper-slide">
-                            <img src="{{ mix('assets/images/1/0002.jpg')}}" alt="">
+                            <img src="{{ asset('assets/images/1/0002.jpg')}}" alt="">
                         </div>
                         <div class="thumbs__slide swiper-slide">
-                            <img src="{{ mix('assets/images/1/0003.jpg')}}" alt="">
+                            <img src="{{ asset('assets/images/1/0003.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
