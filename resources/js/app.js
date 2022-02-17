@@ -223,8 +223,6 @@ document.addEventListener('DOMContentLoaded', e => {
   headerSlider();
   headerMenu();
   sendContactForm();
-});
-window.addEventListener('load', e => {
   document.querySelector('.wrapper').classList.add('scale-in');
   document.documentElement.classList.add('loaded');
 });
