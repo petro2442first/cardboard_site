@@ -22,7 +22,7 @@
             <div class="header__container">
                 <div class="header__top-panel">
                     <div class="logo">
-                        <img src=" {{ asset('assets/images/logo.svg') }}" alt="">
+                        <img loading="lazy" src=" {{ asset('assets/images/logo.svg') }}" alt="">
                     </div>
                     <nav class="nav-menu">
                         <ul class="nav-list">
@@ -50,7 +50,7 @@
                 <div class="slider__row swiper-slide">
                   <div class="slider__item">
                     <div class="slider__thumb">
-                      <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+                      <img loading="lazy" src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
             </div>
             <div class="slider__title">
                 Мрія №1
@@ -58,7 +58,7 @@
     </div>
     <div class="slider__item">
         <div class="slider__thumb">
-            <img src="{{ asset('assets/images/2/0001.jpg') }}" alt="">
+            <img loading="lazy" src="{{ asset('assets/images/2/0001.jpg') }}" alt="">
         </div>
         <div class="slider__title">
             Мрія №2
@@ -66,7 +66,7 @@
     </div>
     <div class="slider__item">
         <div class="slider__thumb">
-            <img src="{{ asset('assets/images/3/0001.jpg') }}" alt="">
+            <img loading="lazy" src="{{ asset('assets/images/3/0001.jpg') }}" alt="">
         </div>
         <div class="slider__title">
             Мрія №3
@@ -82,23 +82,23 @@
         <h3 class="title-s">Приєднуйся до нас у соціальних мережах:</h3>
         <div class="socials__container">
             <a href="#" class="socials__item" target="_blank">
-                <img src="{{ asset('assets/images/facebook.png') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/facebook.png') }}" alt="">
                 <span>Facebook</span>
             </a>
             <a href="#" class="socials__item" target="_blank">
-                <img src="{{ asset('assets/images/instagram.png') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/instagram.png') }}" alt="">
                 <span>Instagram</span>
             </a>
             <a href="#" class="socials__item" target="_blank">
-                <img src="{{ asset('assets/images/telegram.png') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/telegram.png') }}" alt="">
                 <span>Telegram</span>
             </a>
             <a href="#" class="socials__item" target="_blank">
-                <img src="{{ asset('assets/images/viber.png') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/viber.png') }}" alt="">
                 <span>Viber</span>
             </a>
             <a href="https://www.youtube.com/channel/UCNPJTaxdidTHxw7KnJKD3xw" class="socials__item" target="_blank">
-                <img src="{{ asset('assets/images/youtube.png') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/youtube.png') }}" alt="">
                 <span>Youtube</span>
             </a>
         </div>
@@ -165,7 +165,7 @@
                 {{-- <p>Підписуйтесь на новини - буде багато цікавого та корисного.</p> --}}
             </div>
             <div class="thumb">
-                <img src="{{ asset('assets/images/about.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/about.jpg') }}" alt="">
             </div>
         </div>
     </section>
@@ -173,22 +173,22 @@
         <h2 class="title-m">Варіанти складання з одного комплекту</h2>
         <div class="gallery__container">
             <div class="gallery__item">
-                <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
             </div>
             <div class="gallery__item">
-                <img src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
             </div>
             <div class="gallery__item">
-                <img src="{{ asset('assets/images/2/0001.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/2/0001.jpg') }}" alt="">
             </div>
             <div class="gallery__item">
-                <img src="{{ asset('assets/images/2/0002.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/2/0002.jpg') }}" alt="">
             </div>
             <div class="gallery__item">
-                <img src="{{ asset('assets/images/3/0001.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/3/0001.jpg') }}" alt="">
             </div>
             <div class="gallery__item">
-                <img src="{{ asset('assets/images/3/0002.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/3/0002.jpg') }}" alt="">
             </div>
         </div>
         <button class="gallery__view-btn"><i class="fas fa-images"></i>Переглянути повну галерею</button>
@@ -245,7 +245,7 @@
             <div class="catalog-item">
                 <a href="#" class="catalog-item__view-btn">
                     <div class="catalog-item__thumb">
-                        <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+                        <img loading="lazy" src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
                     </div>
                     <div class="catalog-item__title">
                         Стандартний набір "Мрій та будуй"
@@ -286,30 +286,30 @@
             <h3 class="title-s">Приєднуйся до нас у соціальних мережах:</h3>
             <div class="socials__container">
                 <a href="#" class="socials__item">
-                    <img src="{{ asset('assets/images/facebook.png') }}" alt="">
+                    <img loading="lazy" src="{{ asset('assets/images/facebook.png') }}" alt="">
                     <span>Facebook</span>
                 </a>
                 <a href="#" class="socials__item">
-                    <img src="{{ asset('assets/images/instagram.png') }}" alt="">
+                    <img loading="lazy" src="{{ asset('assets/images/instagram.png') }}" alt="">
                     <span>Instagram</span>
                 </a>
                 <a href="#" class="socials__item">
-                    <img src="{{ asset('assets/images/telegram.png') }}" alt="">
+                    <img loading="lazy" src="{{ asset('assets/images/telegram.png') }}" alt="">
                     <span>Telegram</span>
                 </a>
                 <a href="#" class="socials__item">
-                    <img src="{{ asset('assets/images/viber.png') }}" alt="">
+                    <img loading="lazy" src="{{ asset('assets/images/viber.png') }}" alt="">
                     <span>Viber</span>
                 </a>
                 <a href="https://www.youtube.com/channel/UCNPJTaxdidTHxw7KnJKD3xw" target="_blank"
                     class="socials__item">
-                    <img src="{{ asset('assets/images/youtube.png') }}" alt="">
+                    <img loading="lazy" src="{{ asset('assets/images/youtube.png') }}" alt="">
                     <span>Youtube</span>
                 </a>
             </div>
         </div>
         <div class="logo">
-            <img src="{{ asset('assets/images/logo.svg') }}" alt="">
+            <img loading="lazy" src="{{ asset('assets/images/logo.svg') }}" alt="">
         </div>
         <div class="info">
             <div class="info__item">
@@ -329,45 +329,45 @@
     <div class="full-gallery">
         <div class="full-gallery__close-btn"> <i class="fas fa-times"></i> </div>
         <div class="full-gallery__container">
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/1.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/2.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/3.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/4.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/5.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/6.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/7.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/8.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/9.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/10.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/11.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/12.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/13.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/14.jpg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/Упаковка№1.jpeg') }}" alt=""></div>
-            <div class="full-gallery__item"><img src="{{ asset('assets/images/gallery/Упаковка №2.jpeg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/1.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/2.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/3.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/4.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/5.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/6.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/7.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/8.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/9.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/10.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/11.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/12.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/13.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/14.jpg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/Упаковка№1.jpeg') }}" alt=""></div>
+            <div class="full-gallery__item"><img loading="lazy" src="{{ asset('assets/images/gallery/Упаковка №2.jpeg') }}" alt=""></div>
             <div class="full-gallery__item">
-                <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ asset('assets/images/1/0003.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/1/0003.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ asset('assets/images/1/0004.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/1/0004.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ asset('assets/images/1/0005.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/1/0005.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ asset('assets/images/1/0006.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/1/0006.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ asset('assets/images/1/0007.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/1/0007.jpg') }}" alt="">
             </div>
             <div class="full-gallery__item">
-                <img src="{{ asset('assets/images/1/0008.jpg') }}" alt="">
+                <img loading="lazy" src="{{ asset('assets/images/1/0008.jpg') }}" alt="">
             </div>
         </div>
     </div>
@@ -376,52 +376,52 @@
         <div class="viewer-container swiper">
             <div class="overlay"><i class="fas fa-times    "></i></div>
             <div class="swiper-wrapper">
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/1.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/2.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/3.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/4.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/5.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/6.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/7.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/8.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/9.jpg') }}" alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/10.jpg') }}" alt="">
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/1.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/2.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/3.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/4.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/5.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/6.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/7.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/8.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/9.jpg') }}" alt=""></div>
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/10.jpg') }}" alt="">
                 </div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/11.jpg') }}" alt="">
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/11.jpg') }}" alt="">
                 </div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/12.jpg') }}" alt="">
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/12.jpg') }}" alt="">
                 </div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/13.jpg') }}" alt="">
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/13.jpg') }}" alt="">
                 </div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/14.jpg') }}" alt="">
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/14.jpg') }}" alt="">
                 </div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/Упаковка№1.jpeg') }}"
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/Упаковка№1.jpeg') }}"
                         alt=""></div>
-                <div class="viewer-slide swiper-slide"><img src="{{ asset('assets/images/gallery/Упаковка №2.jpeg') }}"
+                <div class="viewer-slide swiper-slide"><img loading="lazy" src="{{ asset('assets/images/gallery/Упаковка №2.jpeg') }}"
                         alt=""></div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+                    <img loading="lazy" src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
+                    <img loading="lazy" src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ asset('assets/images/1/0003.jpg') }}" alt="">
+                    <img loading="lazy" src="{{ asset('assets/images/1/0003.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ asset('assets/images/1/0004.jpg') }}" alt="">
+                    <img loading="lazy" src="{{ asset('assets/images/1/0004.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ asset('assets/images/1/0005.jpg') }}" alt="">
+                    <img loading="lazy" src="{{ asset('assets/images/1/0005.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ asset('assets/images/1/0006.jpg') }}" alt="">
+                    <img loading="lazy" src="{{ asset('assets/images/1/0006.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ asset('assets/images/1/0007.jpg') }}" alt="">
+                    <img loading="lazy" src="{{ asset('assets/images/1/0007.jpg') }}" alt="">
                 </div>
                 <div class="viewer-slide swiper-slide">
-                    <img src="{{ asset('assets/images/1/0008.jpg') }}" alt="">
+                    <img loading="lazy" src="{{ asset('assets/images/1/0008.jpg') }}" alt="">
                 </div>
             </div>
             <div class="swiper-button-prev"></div>
@@ -436,13 +436,13 @@
                 <div class="thumbs-slider">
                     <div class="thumbs-slider__wrapper swiper-wrapper">
                         <div class="thumbs-slider__slide swiper-slide">
-                            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+                            <img loading="lazy" src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
                         </div>
                         <div class="thumbs-slider__slide swiper-slide">
-                            <img src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
+                            <img loading="lazy" src="{{ asset('assets/images/1/0002.jpg') }}" alt="">
                         </div>
                         <div class="thumbs-slider__slide swiper-slide">
-                            <img src="{{ asset('assets/images/1/0003.jpg') }}" alt="">
+                            <img loading="lazy" src="{{ asset('assets/images/1/0003.jpg') }}" alt="">
                         </div>
                     </div>
                     <div class="thumbs-slider__next-btn swiper-button-next"></div>
@@ -451,13 +451,13 @@
                 <div class="thumbs">
                     <div class="thumbs__wrapper swiper-wrapper">
                         <div class="thumbs__slide swiper-slide">
-                            <img src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
+                            <img loading="lazy" src="{{ asset('assets/images/1/0001.jpg') }}" alt="">
                         </div>
                         <div class="thumbs__slide swiper-slide">
-                            <img src="{{ asset('assets/images/1/0002.jpg')}}" alt="">
+                            <img loading="lazy" src="{{ asset('assets/images/1/0002.jpg')}}" alt="">
                         </div>
                         <div class="thumbs__slide swiper-slide">
-                            <img src="{{ asset('assets/images/1/0003.jpg')}}" alt="">
+                            <img loading="lazy" src="{{ asset('assets/images/1/0003.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
