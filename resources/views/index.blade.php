@@ -184,7 +184,7 @@
             <video
             class="video-js vjs-theme-city"
             controls
-            preload="auto"
+            preload="metadata"
             poster="{{ asset('assets/images/1/0001.jpg') }}"
             data-setup="{}"
             >
